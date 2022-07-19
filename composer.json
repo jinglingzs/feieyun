@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "huanrui\\feieyun\\Feieyun": "src/huanrui/feieyun/"
+            "huanrui\\feieyun\\Feieyun\\": "src/huanrui/feieyun/"
         }
     }
 }
