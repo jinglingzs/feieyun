@@ -1,5 +1,6 @@
 <?php
 namespace huanrui\feieyun;
+require_once 'HttpClient.class.php';
 class Feieyun
 {
     private $user;
