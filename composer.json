@@ -1,21 +1,21 @@
 {
-  "name": "huanrui/feieyun",
-  "description": "基于飞鹅云开放平台的 PHP 接口组件",
-  "authors": [
-    {
-      "name": "jinglingzs",
-      "email": "tbgh414@163.com"
+    "name": "huanrui/feieyun",
+    "description": "基于飞鹅云开放平台的 PHP 接口组件",
+    "type": "library",
+    "homepage": "http://www.huanrui.net.cn",
+    "authors": [
+        {
+            "name": "jinglingzs",
+            "email": "tbgh414@163.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "huanrui\\feieyun\\": "src/huanrui/feieyun"
+        }
     }
-  ],
-  "minimum-stability": "beta",
-  "require": {
-    "php": ">=5.6"
-  },
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "huanrui\\feieyun\\": "src/huanrui/feieyun",
-      "Test\\": "tests"
-    }
-  }
 }
